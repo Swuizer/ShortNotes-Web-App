@@ -1,0 +1,16 @@
+.container .box {
+    width: 80%;
+    margin: 0px 154px;
+    box-sizing: border-box;
+}
+.container .box .card-title {
+    font-size: 18px;
+    display: block;
+}
+.border {
+    width: 80%;
+    margin: 7px 155px;
+}
+.row {
+    grid-template-columns: 271px 271px 271px;
+}

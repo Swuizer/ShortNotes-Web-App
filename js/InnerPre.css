@@ -1,0 +1,162 @@
+body{
+    margin: 0px;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    color: white;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#logo{
+    display: flex;
+}
+#logo h2{
+    margin: 15px 9px;
+}
+#logo ul{
+    list-style: none;
+}
+#logo ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+#logo ul li a:hover,
+#logo ul li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+#navbar .form{
+    display: grid;
+}
+#navbar .right{
+    position: absolute;
+    right: 34px;
+    display: inline-block;
+    padding: 0px 7px;
+}
+#navbar .right input{
+    border: 3px solid white;
+    padding: 0px 0px;
+    margin: 6px 1px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+#navbar .right button{
+    padding: 3px 22px;
+    font-size: 14px;
+    background-color: greenyellow;
+}
+#navbar .right button:hover{
+    color: black;
+    color: greenyellow;
+    background-color: rgb(48, 78, 3);
+    border: 3px solid greenyellow;
+    font-weight: bold;
+}
+.container{
+    text-align: center;
+}
+.container #hONE{
+    font-size: 40px;
+    margin: 2px 2px;
+}
+.container .box{
+    text-align: center;
+    border: 2px solid black;
+    width: 70%;
+    margin: 0px 220px;
+}
+.container .box .card-title{
+    font-size: 18px;
+    display: block;
+}
+.container .box .titleArea{
+    border: 2px solid black;
+    padding: 2px 8px;
+    /* width: 1019px;  */
+    width: 90%;
+    height: 52px;
+    font-weight: bold;
+}
+.container .box .area{
+    margin: 6px 0px;
+}
+.container .box .textarea{
+    border: 2px solid black;
+    padding: 50px 0px;
+    width: 1034px; 
+    width: 90%;
+    height: 52px;
+    font-weight: bolder;
+}
+.container .box .btn-primary{
+    color: white;
+    background-color: rgb(9, 75, 244);
+    border-radius: 7px;
+    border: 2px solid #f7f2f2;
+    margin: 4px 0px;
+    padding: 6px 16px;
+    outline:double;
+}
+.container .box .btn-primary:hover{
+    color: rgb(9, 75, 244);
+    background-color: white;
+    border: 2px solid rgb(9, 75, 244);
+    font-weight: bold
+}
+.border{
+    width: 70%;
+    margin: 7px 221px;
+}
+#ber{
+    text-align: center;
+}
+.row{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 271px 271px 271px 271px;
+    grid-gap: 2rem;
+    width: 100%;
+    
+}
+.noteCard{
+    display: inline-block;
+    border: 2px solid black;
+    background-color: rgb(241, 248, 248);
+    box-sizing: border-box;
+    height: 200px;
+    margin: 4px 2px;
+    padding: 3px 14px;
+}
+.row .noteCard .btn-primary{
+    color: white;
+    background-color: rgb(9, 75, 244);
+    border-radius: 7px;
+    border: 2px solid #f7f2f2;
+    margin: 8px 4px;
+    padding: 6px 16px;
+    outline: double;
+}
+.row .noteCard .btn-primary:hover{
+    color: rgb(9, 75, 244);
+    background-color: white;
+    border: 3px solid rgb(9, 75, 244);
+    font-weight: bold;
+}
+.Span{
+    font-size: 13px;
+}

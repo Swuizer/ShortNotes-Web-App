@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Web App</title>
+    <link rel="stylesheet" href="InnerPre.css">
+    <link rel="stylesheet" media="screen and (max-width: 371px)" href="InnerPrePhone.css">
+    <link rel="stylesheet" media="screen and ((min-width: 1000px) and (max-width: 1499px))" href="InnerPreLaptop.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+
+            <h2>Short Notes</h2>
+            <ul>
+                <li class="item"><a href="#home" class="active">Home</a></li>
+            </ul>
+        </div>
+        <form class="right" role="search">
+            <input type="search" id="searchTxt" placeholder="search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">search</button>
+        </form>
+    </nav>
+    <div class="container">
+        <div id="hONE">Welcome To Short Notes</div>
+        <div class="box">
+            <div class="area">
+                <label class="card-title" for="addTitle">Add Title</label>
+                <input type="text" class="titleArea" id="addTitle" placeholder="Enter Title">
+            </div>
+            <div class="area">
+                <label class="card-title" for="addTxt">Example textarea</label>
+                <textarea class="textarea" id="addTxt" rows="9"></textarea>
+            </div>
+            <button class="btn btn-primary" id="addBtn">Add Note</button>
+        </div>
+    </div>
+    <hr class="border">
+    <h1 id="ber">Your Notes</h1>
+    <div id="notes" class="row" colomn="3">
+    </div>
+    <script src="InnerPre.js"></script>
+</body>
+</html>
